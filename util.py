@@ -14,7 +14,7 @@ def identifica_unidade(ip):
     und = ''
     if '10.1.' in ip: und = 'PMS'
     if '10.14.' in ip: und = 'STZ'
-    if '10.9.' in ip: und = 'PTR'
+    if '10.9.' in ip: und = 'PTC'
     if '10.5.' in ip: und = 'IBA'
     if '10.10.' in ip: und = 'SGT'
     if '10.4.' in ip: und = 'PTU'

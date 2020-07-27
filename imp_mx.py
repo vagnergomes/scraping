@@ -2,7 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from urllib.error import HTTPError
 from urllib.error import URLError
-import util
+from Contador_Impressoras import util
 
 
 def scraping_mx(und, ip):
